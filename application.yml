@@ -10,7 +10,7 @@ lavalink:
       soundcloud: true
       twitch: true
       vimeo: true
-      http: true
+      http: false
       local: false
     bufferDurationMs: 400 # The duration of the NAS buffer. Higher values fare better against longer GC pauses
     frameBufferDurationMs: 5000 # How many milliseconds of audio to keep buffered
