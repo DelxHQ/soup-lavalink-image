@@ -1,3 +1,3 @@
-FROM fredboat/lavalink:33f6f5a9
+FROM fredboat/lavalink:b90ab1e5
 
 COPY lavalink.yml /opt/Lavalink/application.yml
