@@ -1,4 +1,4 @@
-FROM ghcr.io/lavalink-devs/lavalink:4
+FROM ghcr.io/lavalink-devs/lavalink:latest-alpine
 
 COPY lavalink.yml /opt/Lavalink/application.yml
 
