@@ -1,4 +1,4 @@
-FROM ghcr.io/lavalink-devs/lavalink:patch-yt-player-params-alpine
+FROM ghcr.io/lavalink-devs/lavalink:bb5e126
 
 COPY lavalink.yml /opt/Lavalink/application.yml
 
