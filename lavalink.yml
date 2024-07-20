@@ -73,7 +73,7 @@ lavalink:
     soundcloudSearchEnabled: true
     gc-warnings: true
     ratelimit:
-      ipBlocks: ["2001:41d0:801:2000::8e2/64"] # list of ip blocks
+      ipBlocks: ["2001:41d0:801:2000::8e2"] # list of ip blocks
       excludedIps: ["0.0.0.0"] # ips which should be explicit excluded from usage by lavalink
       strategy: "NanoSwitch" # RotateOnBan | LoadBalance | NanoSwitch | RotatingNanoSwitch
       searchTriggersFail: true # Whether a search 429 should trigger marking the ip as failing
