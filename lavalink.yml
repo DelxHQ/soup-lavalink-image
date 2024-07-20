@@ -3,7 +3,7 @@ server: # REST and WS server
   address: 0.0.0.0
 plugins:
   youtube:
-    enabled: false # Whether this source can be used.
+    enabled: true # Whether this source can be used.
     allowSearch: true # Whether "ytsearch:" and "ytmsearch:" can be used.
     allowDirectVideoIds: true # Whether just video IDs can match. If false, only complete URLs will be loaded.
     allowDirectPlaylistIds: true # Whether just playlist IDs can match. If false, only complete URLs will be loaded.
@@ -12,7 +12,11 @@ plugins:
     clients:
       - MUSIC
       - ANDROID_TESTSUITE
+      - ANDROID
+      - ANDROID_LITE
       - WEB
+      - MEDIA_CONNECT
+      - IOS
 
     # You can configure individual clients with the following.
     # Any options or clients left unspecified will use their default values
@@ -39,7 +43,7 @@ lavalink:
   server:
     password: "youshallnotpass"
     sources:
-      youtube: true
+      youtube: false
       bandcamp: true
       soundcloud: true
       twitch: true
