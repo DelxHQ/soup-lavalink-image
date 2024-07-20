@@ -1,6 +1,6 @@
 server: # REST and WS server
   port: 2333
-  address: 2001:41d0:801:2000::8e2
+  address: 0.0.0.0
 plugins:
   youtube:
     enabled: true # Whether this source can be used.
